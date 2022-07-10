@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}    
+
+main {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+main > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+h1 {
+    color: #6C63FF;
+    font-weight: 700;
+}
+
+#legenda {
+    display: flex;
+    color: #C8C8C8;
+    font-weight: 300;
+    font-size: 1em;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 1em;
+}
+
+#countdown {
+    font-size: 4em;
+    color: #4D4C59;
+}
+
+#button-area {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+legend {
+    color: #C8C8C8;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+button {
+    font-size: 1em;
+    background-color: #6C63FF;
+    color: white;
+    padding: 0.8em 2em;
+    border-radius: 10px;
+    border: none;
+}
+
+#rocket {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rocket img {
+    width: 100%;
+}
+
+#top-image {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+#bottom-image {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
